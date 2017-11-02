@@ -1,0 +1,75 @@
+body {
+	background-image: url("../images/dark-triangles.png");
+}
+
+h1{
+	background-color: red;
+	color: white;
+	display:inline;
+	clear: both;
+	padding: 10px;
+	margin-bottom: 20px;
+	border: solid 1px #A9A9A9;
+}
+
+#wrapper {
+	width: 100%
+	max-width:960px;
+	margin: 0 auto;
+}
+
+#instructions {
+	background-color: gray;
+	width: 50%;
+	clear:both;
+	padding: 15px;
+	margin-top: 20px;
+	border: solid 1px #ff0000
+}
+
+#guessingNumber {
+	background-color: red;
+	float: left;
+	display: inline-block;
+	padding: 20px;
+	margin-top: 30px;
+	border: solid 1px #ff0000
+}
+
+#scorecount {
+	background-color: red;
+	display: inline-block;
+	padding: 15px 20px 10px 15px;
+	margin-top: 20px;
+	margin-left: 20px;
+	border: solid 1px #ff0000
+
+}
+
+#crystals {
+	margin-top: 15px;
+	margin-bottom:26px;
+
+}
+
+.crystalImage {
+	height: 95px;
+	border: solid 1px #272525;
+	margin-left: 20px
+}
+
+.crystalImage:firstchild {
+	margin-left: 0px;
+
+}
+
+#totalScore {
+	margin-bottom: 50px;
+}
+
+#yts {
+	background: red ;
+	display: inline;
+	padding: 20px;
+	border: solid 1px #A9A9A9
+}
